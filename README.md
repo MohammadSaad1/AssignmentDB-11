@@ -1,3 +1,447 @@
-# AssignmentDB-11
+# AssignmentDB-12
 
-To-Do
+LOAD CSV WITH HEADERS FROM "file:///some2016UKgeotweets.csv" AS row 
+    FIELDTERMINATOR ";"
+return row
+LIMIT 10
+
+{
+  "Tweet Url": "http://www.twitter.com/ZPRSoho/status/723066388391157762",
+  "User Name": "ZPR",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "London, England",
+  "Following": "710",
+  "Bio": "22 straight talking PRs based in Soho sharing their love for their brands and the ins and outs of life in PR",
+  "Latitude": "51.50518452",
+  "Profile picture": "http://pbs.twimg.com/profile_images/378800000652513487/cdd052226f02a6ff4b8f7780357b6143_normal.jpeg",
+  "Tweet Id": "723066388391157762 ",
+  "Followers": "2178",
+  "Longitude": "-0.15012839",
+  "Date": "2016-04-21",
+  "Tweet content": "Talking to some great journos this morning all about @Hirsty148!  🐑 😴 @ Metropolitan by COMO,… https://t.co/6UymMuUEpR",
+  "RTs": "",
+  "Listed": "44",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "ZPRSoho"
+}
+{
+  "Tweet Url": "http://www.twitter.com/BeepBeepTraffic/status/723066384297672704",
+  "User Name": "Beep!Beep!",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Willenhall, England",
+  "Following": "245",
+  "Bio": "UK Traffic Alert App for iOS http://t.co/55H1qvGydj, Android http://t.co/LjeMB85U5h & Twitter. Follow us for traffic updates, app news and send us feedback!",
+  "Latitude": "52.615627",
+  "Profile picture": "http://pbs.twimg.com/profile_images/465770283689713664/ZxO535G2_normal.png",
+  "Tweet Id": "723066384297672704 ",
+  "Followers": "458",
+  "Longitude": "-2.0290296",
+  "Date": "2016-04-21",
+  "Tweet content": "Incident (Severe delay) M6 northbound between J10 and J10A Status : Currently Active. 
+Time To Clear : ... https://t.co/4KEpk935PI #beepbeep",
+  "RTs": "",
+  "Listed": "78",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "BeepBeepTraffic"
+}
+{
+  "Tweet Url": "http://www.twitter.com/annetteand2dogs/status/723066381751689216",
+  "User Name": "Annette",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Dublin City, Ireland",
+  "Following": "456",
+  "Bio": "Sociologist, (vintage) cyclist, dog lover, music fan, analog photography nerd, immigrant. Not necessarily in that order.",
+  "Latitude": "53.33699524",
+  "Profile picture": "http://pbs.twimg.com/profile_images/664860510697988096/7M0t4CxW_normal.jpg",
+  "Tweet Id": "723066381751689216 ",
+  "Followers": "333",
+  "Longitude": "-6.27968561",
+  "Date": "2016-04-21",
+  "Tweet content": "THIS: “@Colmogorman: Great piece by @amcteirnan : Still waiting after 30 years for a Census that includes me https://t.co/UVs87t6LZs  #2016”",
+  "RTs": "",
+  "Listed": "20",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "IE",
+  "Favs": "",
+  "Nickname": "annetteand2dogs"
+}
+{
+  "Tweet Url": "http://www.twitter.com/DollieHenry/status/723066348201353216",
+  "User Name": "Dollie Henry",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "London, England",
+  "Following": "1685",
+  "Bio": "Choreographer | Theatre Director | Educator | JAZZ Artist and founder of BOP JAZZ THEATRE COMPANY ... follow us @BOPJAZZUK ... Love, light & all things Jazz!!",
+  "Latitude": "51.5134512",
+  "Profile picture": "http://pbs.twimg.com/profile_images/720555460101869568/zfhxdEI4_normal.jpg",
+  "Tweet Id": "723066348201353216 ",
+  "Followers": "1259",
+  "Longitude": "-0.1253311",
+  "Date": "2016-04-21",
+  "Tweet content": "A Little snippet from my #SundayJazzCongregation @pineappledance ... Great to have nimamyri in… https://t.co/V2ybjZOSjF",
+  "RTs": "",
+  "Listed": "20",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "DollieHenry"
+}
+{
+  "Tweet Url": "http://www.twitter.com/cleo_bannister/status/723066340953722880",
+  "User Name": "Cleo Bannister",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Saint Helier, Bailiwick of Jersey",
+  "Following": "1966",
+  "Bio": "Love reading and reviewing.  Struggle with an ever increasing list of books to be read.",
+  "Latitude": "49.20177",
+  "Profile picture": "http://pbs.twimg.com/profile_images/378800000642176165/77ff4d8141aca5aaaaaed992e8a36630_normal.jpeg",
+  "Tweet Id": "723066340953722880 ",
+  "Followers": "2418",
+  "Longitude": "-2.1145425",
+  "Date": "2016-04-21",
+  "Tweet content": "Latest Book Review: The Closet of Savage Mementos by Nuala Ní Chonchúir https://t.co/oLVS6S3qGn via @cleo_bannister https://t.co/5GKZs0Tr8D",
+  "RTs": "",
+  "Listed": "140",
+  "Tweet language (ISO 639-1)": "es",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "cleo_bannister"
+}
+{
+  "Tweet Url": "http://www.twitter.com/QuintilesCareer/status/723066335803019264",
+  "User Name": "Quintiles Careers",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Manchester, England",
+  "Following": "19",
+  "Bio": "Want to Connect to Great Opportunity? Now is a great time to join a #biopharma industry leader & evolve your #career while making a difference to human #health.",
+  "Latitude": "53.4807593",
+  "Profile picture": "http://pbs.twimg.com/profile_images/623202778425397248/34ObmdYT_normal.jpg",
+  "Tweet Id": "723066335803019264 ",
+  "Followers": "429",
+  "Longitude": "-2.2426305",
+  "Date": "2016-04-21",
+  "Tweet content": "If you're a #Pharmaceutical professional in #Manchester, England, check out this #job: https://t.co/geX31M1oRH #Hiring",
+  "RTs": "",
+  "Listed": "557",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "QuintilesCareer"
+}
+{
+  "Tweet Url": "http://www.twitter.com/wart_dev/status/723066329918504960",
+  "User Name": "Rojas Wilmer",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Fingal, Ireland",
+  "Following": "1799",
+  "Bio": "CTO Founder of @Socialh4ck - Computer Science -  Entrepreneur",
+  "Latitude": "53.42662962",
+  "Profile picture": "http://pbs.twimg.com/profile_images/643215625905504256/CEZMBX_T_normal.jpg",
+  "Tweet Id": "723066329918504960 ",
+  "Followers": "576",
+  "Longitude": "-6.24182224",
+  "Date": "2016-04-21",
+  "Tweet content": "I'm at @DublinAirport (DUB) - Aerfort Bhaile Átha Cliath in Dublin https://t.co/vOQ5I8iSBH",
+  "RTs": "",
+  "Listed": "26",
+  "Tweet language (ISO 639-1)": "es",
+  "Country": "IE",
+  "Favs": "",
+  "Nickname": "wart_dev"
+}
+{
+  "Tweet Url": "http://www.twitter.com/TubeMogul/status/723066322528120832",
+  "User Name": "TubeMogul",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Camden Town, London",
+  "Following": "1861",
+  "Bio": "TubeMogul is a leading enterprise software company for brand advertising. With an integrated cross-channel ad solution, we put Brands & Agencies in control.",
+  "Latitude": "51.51523763",
+  "Profile picture": "http://pbs.twimg.com/profile_images/463722400362676224/bALjMxOi_normal.png",
+  "Tweet Id": "723066322528120832 ",
+  "Followers": "14268",
+  "Longitude": "-0.12715407",
+  "Date": "2016-04-21",
+  "Tweet content": "Our 2 day @Cadreon_IPG Summit kicks off in our new office with an intro from @nickreid76 #TubeEU #TubeMogulAcademy https://t.co/C5khN1XlMF",
+  "RTs": "",
+  "Listed": "740",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "TubeMogul"
+}
+{
+  "Tweet Url": "http://www.twitter.com/sheilanne88/status/723066311291592704",
+  "User Name": "Sheila Murray-Forde",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Haworth, England",
+  "Following": "1227",
+  "Bio": "Yoga, Meditation, Ayurveda, Relaxation. Global internet business consultant",
+  "Latitude": "53.8322756",
+  "Profile picture": "http://pbs.twimg.com/profile_images/653299336395292673/j8w-KnPn_normal.jpg",
+  "Tweet Id": "723066311291592704 ",
+  "Followers": "780",
+  "Longitude": "-1.9580134",
+  "Date": "2016-04-21",
+  "Tweet content": "Remembering Charlotte Bronte on the 200th anniversary of her birth today. https://t.co/Q4MUqVpFFe",
+  "RTs": "",
+  "Listed": "12",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "sheilanne88"
+}
+{
+  "Tweet Url": "http://www.twitter.com/PickwickFabrics/status/723066307793588224",
+  "User Name": "Pickwick Papers",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Eltham, London",
+  "Following": "1980",
+  "Bio": "'Quirky Wallpaper & Fabric shop in Greenwich' Own workroom with over 40 years experience in interiors.WE LIKE TO POKE THINGS WITH A STICK.!!!",
+  "Latitude": "51.4307296",
+  "Profile picture": "http://pbs.twimg.com/profile_images/604308258409566208/JdRlh7zL_normal.jpg",
+  "Tweet Id": "723066307793588224 ",
+  "Followers": "1514",
+  "Longitude": "0.07027410000000001",
+  "Date": "2016-04-21",
+  "Tweet content": ""@christmas_cabin: @PickwickFabrics Hell Yeah! X"
+Look at you .... all posh on't telly!!!",
+  "RTs": "",
+  "Listed": "46",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "PickwickFabrics"
+}
+Started streaming 10 records after 31 ms and completed after 32 ms.
+LOAD CSV WITH HEADERS FROM "file:///some2016UKgeotweets.csv" AS row FIELDTERMINATOR ";" return row LIMIT 10
+•	
+•	
+•	
+•	
+•	
+•	
+•	Table
+•	Text
+•	Code
+row
+{
+  "Tweet Url": "http://www.twitter.com/ZPRSoho/status/723066388391157762",
+  "User Name": "ZPR",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "London, England",
+  "Following": "710",
+  "Bio": "22 straight talking PRs based in Soho sharing their love for their brands and the ins and outs of life in PR",
+  "Latitude": "51.50518452",
+  "Profile picture": "http://pbs.twimg.com/profile_images/378800000652513487/cdd052226f02a6ff4b8f7780357b6143_normal.jpeg",
+  "Tweet Id": "723066388391157762 ",
+  "Followers": "2178",
+  "Longitude": "-0.15012839",
+  "Date": "2016-04-21",
+  "Tweet content": "Talking to some great journos this morning all about @Hirsty148!  🐑 😴 @ Metropolitan by COMO,… https://t.co/6UymMuUEpR",
+  "RTs": "",
+  "Listed": "44",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "ZPRSoho"
+}
+{
+  "Tweet Url": "http://www.twitter.com/BeepBeepTraffic/status/723066384297672704",
+  "User Name": "Beep!Beep!",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Willenhall, England",
+  "Following": "245",
+  "Bio": "UK Traffic Alert App for iOS http://t.co/55H1qvGydj, Android http://t.co/LjeMB85U5h & Twitter. Follow us for traffic updates, app news and send us feedback!",
+  "Latitude": "52.615627",
+  "Profile picture": "http://pbs.twimg.com/profile_images/465770283689713664/ZxO535G2_normal.png",
+  "Tweet Id": "723066384297672704 ",
+  "Followers": "458",
+  "Longitude": "-2.0290296",
+  "Date": "2016-04-21",
+  "Tweet content": "Incident (Severe delay) M6 northbound between J10 and J10A Status : Currently Active. 
+Time To Clear : ... https://t.co/4KEpk935PI #beepbeep",
+  "RTs": "",
+  "Listed": "78",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "BeepBeepTraffic"
+}
+{
+  "Tweet Url": "http://www.twitter.com/annetteand2dogs/status/723066381751689216",
+  "User Name": "Annette",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Dublin City, Ireland",
+  "Following": "456",
+  "Bio": "Sociologist, (vintage) cyclist, dog lover, music fan, analog photography nerd, immigrant. Not necessarily in that order.",
+  "Latitude": "53.33699524",
+  "Profile picture": "http://pbs.twimg.com/profile_images/664860510697988096/7M0t4CxW_normal.jpg",
+  "Tweet Id": "723066381751689216 ",
+  "Followers": "333",
+  "Longitude": "-6.27968561",
+  "Date": "2016-04-21",
+  "Tweet content": "THIS: “@Colmogorman: Great piece by @amcteirnan : Still waiting after 30 years for a Census that includes me https://t.co/UVs87t6LZs  #2016”",
+  "RTs": "",
+  "Listed": "20",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "IE",
+  "Favs": "",
+  "Nickname": "annetteand2dogs"
+}
+{
+  "Tweet Url": "http://www.twitter.com/DollieHenry/status/723066348201353216",
+  "User Name": "Dollie Henry",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "London, England",
+  "Following": "1685",
+  "Bio": "Choreographer | Theatre Director | Educator | JAZZ Artist and founder of BOP JAZZ THEATRE COMPANY ... follow us @BOPJAZZUK ... Love, light & all things Jazz!!",
+  "Latitude": "51.5134512",
+  "Profile picture": "http://pbs.twimg.com/profile_images/720555460101869568/zfhxdEI4_normal.jpg",
+  "Tweet Id": "723066348201353216 ",
+  "Followers": "1259",
+  "Longitude": "-0.1253311",
+  "Date": "2016-04-21",
+  "Tweet content": "A Little snippet from my #SundayJazzCongregation @pineappledance ... Great to have nimamyri in… https://t.co/V2ybjZOSjF",
+  "RTs": "",
+  "Listed": "20",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "DollieHenry"
+}
+{
+  "Tweet Url": "http://www.twitter.com/cleo_bannister/status/723066340953722880",
+  "User Name": "Cleo Bannister",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Saint Helier, Bailiwick of Jersey",
+  "Following": "1966",
+  "Bio": "Love reading and reviewing.  Struggle with an ever increasing list of books to be read.",
+  "Latitude": "49.20177",
+  "Profile picture": "http://pbs.twimg.com/profile_images/378800000642176165/77ff4d8141aca5aaaaaed992e8a36630_normal.jpeg",
+  "Tweet Id": "723066340953722880 ",
+  "Followers": "2418",
+  "Longitude": "-2.1145425",
+  "Date": "2016-04-21",
+  "Tweet content": "Latest Book Review: The Closet of Savage Mementos by Nuala Ní Chonchúir https://t.co/oLVS6S3qGn via @cleo_bannister https://t.co/5GKZs0Tr8D",
+  "RTs": "",
+  "Listed": "140",
+  "Tweet language (ISO 639-1)": "es",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "cleo_bannister"
+}
+{
+  "Tweet Url": "http://www.twitter.com/QuintilesCareer/status/723066335803019264",
+  "User Name": "Quintiles Careers",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Manchester, England",
+  "Following": "19",
+  "Bio": "Want to Connect to Great Opportunity? Now is a great time to join a #biopharma industry leader & evolve your #career while making a difference to human #health.",
+  "Latitude": "53.4807593",
+  "Profile picture": "http://pbs.twimg.com/profile_images/623202778425397248/34ObmdYT_normal.jpg",
+  "Tweet Id": "723066335803019264 ",
+  "Followers": "429",
+  "Longitude": "-2.2426305",
+  "Date": "2016-04-21",
+  "Tweet content": "If you're a #Pharmaceutical professional in #Manchester, England, check out this #job: https://t.co/geX31M1oRH #Hiring",
+  "RTs": "",
+  "Listed": "557",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "QuintilesCareer"
+}
+{
+  "Tweet Url": "http://www.twitter.com/wart_dev/status/723066329918504960",
+  "User Name": "Rojas Wilmer",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Fingal, Ireland",
+  "Following": "1799",
+  "Bio": "CTO Founder of @Socialh4ck - Computer Science -  Entrepreneur",
+  "Latitude": "53.42662962",
+  "Profile picture": "http://pbs.twimg.com/profile_images/643215625905504256/CEZMBX_T_normal.jpg",
+  "Tweet Id": "723066329918504960 ",
+  "Followers": "576",
+  "Longitude": "-6.24182224",
+  "Date": "2016-04-21",
+  "Tweet content": "I'm at @DublinAirport (DUB) - Aerfort Bhaile Átha Cliath in Dublin https://t.co/vOQ5I8iSBH",
+  "RTs": "",
+  "Listed": "26",
+  "Tweet language (ISO 639-1)": "es",
+  "Country": "IE",
+  "Favs": "",
+  "Nickname": "wart_dev"
+}
+{
+  "Tweet Url": "http://www.twitter.com/TubeMogul/status/723066322528120832",
+  "User Name": "TubeMogul",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Camden Town, London",
+  "Following": "1861",
+  "Bio": "TubeMogul is a leading enterprise software company for brand advertising. With an integrated cross-channel ad solution, we put Brands & Agencies in control.",
+  "Latitude": "51.51523763",
+  "Profile picture": "http://pbs.twimg.com/profile_images/463722400362676224/bALjMxOi_normal.png",
+  "Tweet Id": "723066322528120832 ",
+  "Followers": "14268",
+  "Longitude": "-0.12715407",
+  "Date": "2016-04-21",
+  "Tweet content": "Our 2 day @Cadreon_IPG Summit kicks off in our new office with an intro from @nickreid76 #TubeEU #TubeMogulAcademy https://t.co/C5khN1XlMF",
+  "RTs": "",
+  "Listed": "740",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "TubeMogul"
+}
+{
+  "Tweet Url": "http://www.twitter.com/sheilanne88/status/723066311291592704",
+  "User Name": "Sheila Murray-Forde",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Haworth, England",
+  "Following": "1227",
+  "Bio": "Yoga, Meditation, Ayurveda, Relaxation. Global internet business consultant",
+  "Latitude": "53.8322756",
+  "Profile picture": "http://pbs.twimg.com/profile_images/653299336395292673/j8w-KnPn_normal.jpg",
+  "Tweet Id": "723066311291592704 ",
+  "Followers": "780",
+  "Longitude": "-1.9580134",
+  "Date": "2016-04-21",
+  "Tweet content": "Remembering Charlotte Bronte on the 200th anniversary of her birth today. https://t.co/Q4MUqVpFFe",
+  "RTs": "",
+  "Listed": "12",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "sheilanne88"
+}
+{
+  "Tweet Url": "http://www.twitter.com/PickwickFabrics/status/723066307793588224",
+  "User Name": "Pickwick Papers",
+  "Hour": "08:30",
+  "Place (as appears on Bio)": "Eltham, London",
+  "Following": "1980",
+  "Bio": "'Quirky Wallpaper & Fabric shop in Greenwich' Own workroom with over 40 years experience in interiors.WE LIKE TO POKE THINGS WITH A STICK.!!!",
+  "Latitude": "51.4307296",
+  "Profile picture": "http://pbs.twimg.com/profile_images/604308258409566208/JdRlh7zL_normal.jpg",
+  "Tweet Id": "723066307793588224 ",
+  "Followers": "1514",
+  "Longitude": "0.07027410000000001",
+  "Date": "2016-04-21",
+  "Tweet content": ""@christmas_cabin: @PickwickFabrics Hell Yeah! X"
+Look at you .... all posh on't telly!!!",
+  "RTs": "",
+  "Listed": "46",
+  "Tweet language (ISO 639-1)": "en",
+  "Country": "GB",
+  "Favs": "",
+  "Nickname": "PickwickFabrics"
+}
+
+
+
+
